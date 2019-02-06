@@ -16,15 +16,12 @@ def hopper
         }
      }
 
-
+programmer_hash[:grace_hopper]
 end
 
 
 
-
-	programmer_hash[:alan_kay][:known_for]
-
-	programmer_hash =
+programmer_hash =
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -39,6 +36,7 @@ end
           :languages => ["C"]
         }
      }
+	programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
@@ -57,6 +55,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+programmer_hash[:dennis_ritchie][:languages].first
 end
 
 def adding_matz
